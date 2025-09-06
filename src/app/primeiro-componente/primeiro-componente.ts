@@ -8,4 +8,18 @@ import { Component } from '@angular/core';
 })
 export class PrimeiroComponente {
 
+  nome:string = "Carolina";
+  media: number = 8;
+
+  pessoa = {
+    nome: 'Carolina',
+    idade: 42
+  }
+
+  mensagem(): string{
+    return 'Hello World!'
+  }
+
+
+
 }

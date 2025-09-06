@@ -1,1 +1,20 @@
-<p>primeiro-componente works!</p>
+<p>Meu primeiro componente em funcionamento!</p>
+
+<!--Interpolação de variaveis -->
+<p>Olá {{nome}}</p>
+<!--Concatenação -->
+<p>{{'Olá ' + nome}}</p>
+<p>{{`Olá ${nome}`}}</p>
+
+<!--Interpolação com expressões matemática -->
+<p>{{5 + 5}}</p>
+
+<!--Interpolação com funcões/metodos-->
+<p>{{mensagem()}}</p>
+
+<!--Interpolação com operador ternario -->
+<p>{{media >= 7 ? 'Aprovado!' : 'Reprovado!'}}</p>
+
+<!--Interpolação com objetos -->
+<p>{{pessoa.nome}}</p>
+<p>{{pessoa.idade}}</p>
