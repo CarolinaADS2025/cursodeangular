@@ -1,0 +1,23 @@
+@if(media >=7){
+    <p>Aluno aprovado!</p>
+}@else if (media >=5) {
+    <p>Aluno em recuperação!</p>
+}@else {
+    <p>Aluno reprovado!</p>
+}
+<hr>
+
+@switch (linguagem) {
+    @case ('HTML') {<p>Linguagem de marcação de texto.</p>}
+    @case ('CSS') {<p>Linguagem de estilo.</p>}
+    @case ('JS') {<p>Linguagem de programação.</p>}
+    @default {<p>Linguagem desconhecida.</p>}
+}
+
+<hr>
+
+@for (nome of nomes; track $index){
+    <p>{{$index}} - {{nome}}</p>
+}
+
+<p *ngIf=""></p>
