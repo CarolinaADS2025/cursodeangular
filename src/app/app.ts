@@ -9,11 +9,14 @@ import { DiretivaClass } from "./diretiva-class/diretiva-class";
 import { DiretivaCostumizada } from "./diretiva-costumizada/diretiva-costumizada";
 import { FormularioReativo } from './formulario-reativo/formulario-reativo';
 import { Bootstrap } from "./bootstrap/bootstrap";
+import { ProjetoCrud } from './projeto-crud/projeto-crud';
+import { Pipes } from './pipes/pipes';
+import { Rotas } from "./rotas/rotas";
 
 
 @Component({
   selector: 'app-root',
-  imports: [Bootstrap],
+  imports: [Rotas],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

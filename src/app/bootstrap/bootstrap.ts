@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { FormsModule } from "@angular/forms";
 
 @Component({
   selector: 'app-bootstrap',
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './bootstrap.html',
   styleUrl: './bootstrap.css'
 })
